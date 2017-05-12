@@ -69,3 +69,27 @@ section h1 {
   background-position: center;
   height: 150px;
 }
+
+.secc-texto {
+  padding-top: 0.2%;
+  padding-bottom: 2%;
+  background-color: #a9b8c0;
+}
+
+.secc-texto h1 {
+  font-size: x-large;
+}
+
+.secc-texto div {
+  display: inline-flex;
+  align-items: center;
+}
+
+.secc-texto div p {
+  padding: 0 3%;
+  text-align: justify;
+}
+
+.secc-texto div img {
+  padding: 0 3%;
+}
