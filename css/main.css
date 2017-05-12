@@ -54,6 +54,7 @@ section {
 section h1 {
   display: flex;
   justify-content: center;
+  font-size: x-large;
 }
 
 .secc-imagen h1 {
@@ -79,10 +80,6 @@ section h1 {
   padding-top: 0.2%;
   padding-bottom: 2%;
   background-color: #a9b8c0;
-}
-
-.secc-texto h1 {
-  font-size: x-large;
 }
 
 .secc-texto div {
