@@ -4,7 +4,7 @@
 }
 
 header {
-  background-color: rgba(96, 125, 139, 0.54);;
+  background-color: rgba(96, 125, 139, 0.54);
   display: flex;
   width: 100%;
   height: 70px;
@@ -40,6 +40,10 @@ a:hover {
   color: #037b70;
 }
 
+.icono{
+  display: none;
+}
+
 section {
   width: 100%;
   flex-flow: row nowrap;
@@ -51,6 +55,7 @@ section h1 {
   display: flex;
   justify-content: center;
 }
+
 .secc-imagen h1 {
   margin-top: 50px;
   font-size: x-large;
@@ -88,6 +93,7 @@ section h1 {
 .secc-texto div p {
   padding: 0 3%;
   text-align: justify;
+  font-size: 90%;
 }
 
 .secc-texto div img {
@@ -123,4 +129,51 @@ section h1 {
   display: flex;
   justify-content: center;
   font-size: larger;
+}
+
+@media (min-width:320px) and (max-width: 600px){
+  header{
+    height: 60px;
+  }
+  a {
+    font-size: 70%;
+  }
+  iframe {
+    width: 80%;
+  }
+  .secc-texto div img {
+    width: 45%;
+    padding: 0 1%;
+  }
+  .secc-texto div p {
+    font-size: 60%;
+  }
+}
+
+@media (max-width:320px){
+  header{
+    height: 50px;
+  }
+  .secc-texto {
+    display: none;
+  }
+  .secc-video {
+    background-color: #a9b8c0;
+  }
+  iframe {
+    width: 80%;
+  }
+  .formulario {
+    background-color: white;
+  }
+  .contenedor footer {
+    font-size: 70%;
+  }
+  nav a {
+    display: none;
+  }
+  .icono {
+    display: flex;
+    margin-left: 65%;
+  }
 }
