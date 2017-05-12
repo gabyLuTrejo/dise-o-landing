@@ -93,3 +93,7 @@ section h1 {
 .secc-texto div img {
   padding: 0 3%;
 }
+
+.secc-video {
+  align-items: center;
+}
